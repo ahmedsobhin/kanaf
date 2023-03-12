@@ -52,7 +52,8 @@ const CartPage = () => {
     });
     const encodedMessage = encodeURIComponent(message);
 
-    const whatsappNumber = "+966595005225";
+    //+966595005225
+    const whatsappNumber = "+201018462946";
     const url = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodedMessage}`;
 
     console.log(url);
